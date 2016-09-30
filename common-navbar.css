@@ -28,9 +28,7 @@
 
     border-bottom-color: #2a2b2e;
 
-    -moz-transition:all .1s ease-in;
-    -o-transition:all .1s ease-in;
-    -webkit-transition:all .1s ease-in;
+    transition:all .1s ease-in;
 
     display: inline-block;
 
