@@ -24,10 +24,21 @@
 
     color: #0081af;
 
+    border-bottom: 1px dotted;
+
+    border-bottom-color: #2a2b2e;
+
+    -moz-transition:all .1s ease-in;
+    -o-transition:all .1s ease-in;
+    -webkit-transition:all .1s ease-in;
+
     display: inline-block;
+
+    cursor: pointer;
 }
 
-.link::hover{
+.link:hover
+{
     color: #00abe7;
 
     border-bottom: 1px dotted;
