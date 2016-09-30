@@ -4,6 +4,33 @@
     padding: 0px;
 }
 
-.navgation {
-    
+.navgation 
+{
+    background-color: #2a2b2e;
+}
+
+.navgation-logo
+{
+    width: 10%;
+
+    display: inline-block;
+}
+
+.link
+{
+    font-family: 'Roboto', sans-serif;
+
+    margin: 1%;
+
+    color: #0081af;
+
+    display: inline-block;
+}
+
+.link::hover{
+    color: #00abe7;
+
+    border-bottom: 1px dotted;
+
+    border-bottom-color: #00abe7;
 }
